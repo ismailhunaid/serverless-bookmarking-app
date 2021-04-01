@@ -130,8 +130,8 @@ step 5  just summarize how to setup our project in simple steps details covered 
 1) set up collections or database in fauna db 
 2) secret key 
 3) create index
-4) create a folder functions
-5) npm install faunadb const faunadb = require("faunadb) q= faunadb.query const adminClient= new faunadb.client({secret:""hhhhhhf"})
+4) create a folder named it with functions
+5) npm install faunadb const faunadb = require("faunadb) q= faunadb.query const adminClient= new faunadb.Client({secret:""hhhhhhf"})
 6) netlify functions:create hello choose graphql fauna
 7) npm init 
 8) npm install apollo-server-lambda
